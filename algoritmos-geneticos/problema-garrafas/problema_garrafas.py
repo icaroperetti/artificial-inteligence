@@ -51,9 +51,9 @@ def solution_evaluation(L, S):
     print("..RESUDO DA PRODUÇÃO DE GARRAFAS..")
     print("Lucro total:", float(5*L+4.5*S))
     print("Tempo utilização semanal máquina (max 60h)", float(((6*L+5*S)/100)))
-    print("Espaço utilizado depósito", float(10*L+20*S))
-    print("Garrafas de leite:", L)
-    print("Garrafas de suco:", S)
+    print("Espaço utilizado depósito(Máx 15000)", float(10*L+20*S))
+    print("Garrafas de leite(Max 800):", L)
+    print("Garrafas de suco:(Max 750)", S)
 
 
 def main():
